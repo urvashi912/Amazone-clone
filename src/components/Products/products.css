@@ -38,3 +38,19 @@
 .product_rating {
   display: flex;
 }
+
+.address{
+  font-size: medium;
+  font-weight: 600; 
+}
+
+.hotel_name{
+  font-weight: 35px;
+  font-size: larger;
+}
+
+.surplus_food{
+  font-weight: 600;
+}
+
+

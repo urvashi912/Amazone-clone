@@ -2,7 +2,8 @@
     height:60px;
     display: flex; /*On using display flex in parent element, child elements automatically align like column or row with auto width and auto height.*/
     align-items: center;
-    background-color: #131921;
+    background-color: black;
+    /* background-color: transparent; */
     position: sticky;
     top:0;   
     z-index: 100;
@@ -32,7 +33,7 @@
 .header_searchIcon{
     padding: 5px;
     height: 22px !important;
-    background-color: #cd9042;
+    background-color: pink;
     
 }
 

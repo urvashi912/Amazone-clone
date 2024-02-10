@@ -2,6 +2,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "../Products/Product";
+import { Style } from "@mui/icons-material";
 
 const Home = () => {
   return (
@@ -9,59 +10,70 @@ const Home = () => {
       <div className="home_container">
         <img
           className="home_image"
-          src="https://img.freepik.com/free-vector/happy-diwali-purple-shiny-sale-banner_1017-21635.jpg?w=1480&t=st=1692121315~exp=1692121915~hmac=009e433298b50ff881ba306243e8c7b47e09c8c8e35c9bf74b92de84101951b6"
+          src="https://indianexpress.com/wp-content/uploads/2018/09/global-hunger-759.jpg"
           alt=""
         />
 
         <div className="home_row">
           <Product
-            title="Rich Dad Poor Dad by Robert T. Kiyosaki - What the Rich Teach Their Kids About Money That the Poor and Middle Class Do Not! "
-            price={29.99}
+          hotel_name="Rangrezza"
+            title="Rice, Dal, Aloo Sabzi, Salads "
+            price={30}
             image={
-              "https://m.media-amazon.com/images/I/51Hfv2MfNGL._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"
+              "https://media-cdn.tripadvisor.com/media/photo-s/06/04/3d/e2/shaam-e-sarhad-village.jpg "
             }
             rating={3}
+            Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
           />
           <Product 
-          title="Unbroken by Indrani Mukerjea: You've seen the headlines and heard the rumours. Now hear the story from the woman who was at the centre of it all."
-          price = {11.99}
-          image={"https://m.media-amazon.com/images/I/416iAdoay1L._SX323_BO1,204,203,200_.jpg"}
+          hotel_name="Cinnamon"
+          title="Raita, Daliya, Aloo Sabzi, Papad"
+          price = {40}
+          image={"https://www.funfoodfrolic.com/wp-content/uploads/2019/08/6.jpg"}
           rating={5}
+          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
           
           />
         </div>
 
         <div className="home_row">
           <Product 
-          title = "The Power Of One Thought by Bk Shivani - Master Your Mind, Master Your Life"
-          price = {26.99}
-          image = {"https://m.media-amazon.com/images/I/410kZOXam1L._SY264_BO1,204,203,200_QL40_FMwebp_.jpg"}
+          hotel_name="Raja Dhaba"
+          title = "Roti, Pulao, Dal, Salads"
+          price = {26}
+          image = {"https://www.funfoodfrolic.com/wp-content/uploads/2016/07/Meal-25.jpg"}
           rating = {5}
+          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
            />
           <Product 
-          title = "OnePlus Bullets Wireless Z2 ANC Bluetooth in Ear Earphones with Mic, 45dB Hybrid ANC, Bombastic Bass - 12.4 mm Drivers, 10 Mins Charge - 20 Hrs Music, 28 Hrs Battery Life (Boomin Black)"
-          price = {12.22}
+          hotel_name="UP-53"
+          title = "Rice, Manchurian, Noodles, Salads"
+          price = {20}
           image = {
-            "https://m.media-amazon.com/images/I/51sZ0bOotML._AC_UL800_FMwebp_QL65_.jpg"
+            "https://foodoncall.co.in/wp-content/uploads/2017/12/chinese-thali-1.jpg"
           }
           rating={4}
+          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida"
           />
           <Product
-          title = "iQOO Neo 7 Pro 5G (Fearless Flame, 8GB RAM, 128GB Storage) | Snapdragon® 8+ Gen 1 | Independent Gaming Chip | Flagship 50MP OIS Camera | Premium Leather Design"
-
+          hotel_name="Punjabi Dhaba"
+          title = "Rice, Paneer chilli, Manchurain"
           price = {370.99}
-          image = {"https://m.media-amazon.com/images/I/51o13K4h3-L._SX300_SY300_QL70_FMwebp_.jpg"}
+          image = {"https://masalamagic.files.wordpress.com/2014/07/dsc_0096.jpg"}
           rating= {4}
+          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida"
+
           />
         </div>
 
         <div className="home_row">
           <Product
-          title = "Redmi 108 cm (43 inches) 4K Ultra HD Android Smart LED TV X43 | L43R7-7AIN (Black)"
-
-          price = {1000.99}
-          image = {"https://m.media-amazon.com/images/I/41aCNrgZ9eL._SY300_SX300_QL70_FMwebp_.jpg"}
+          hotel_name="UBQ"
+          title = "Handi paneer, Rice, Roti, Fried Rice, Noodles"
+          image = {"https://media-cdn.tripadvisor.com/media/photo-s/18/19/f0/a6/simple-but-tasty-thali.jpg"}
           rating = {5}
+          Address="Plot No. 35 Kyampur, Sigma II, Greater Noida, Uttar Pradesh 201308•099530 80566"
+          price = {50.99}
           />
           {/* Product */}
         </div>
