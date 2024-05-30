@@ -2,7 +2,7 @@
 import React from "react";
 import "./Home.css";
 import Product from "../Products/Product";
-import { Style } from "@mui/icons-material";
+
 
 const Home = () => {
   return (
