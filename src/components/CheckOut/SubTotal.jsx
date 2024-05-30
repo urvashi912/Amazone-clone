@@ -2,7 +2,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./subtotal.css";
-// import CurrencyInput from 'react-currency-input-field';
 import CurrencyFormat from "react-currency-format";
 import { useStateValue } from "../Datalayer/StateProvider";
 import { getBasketTotal } from "../Datalayer/Reducer";
