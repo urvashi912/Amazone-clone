@@ -1,11 +1,12 @@
+
 // eslint-disable-next-line no-unused-vars
 import React, { useReducer } from "react";
 import "./products.css";
 import { useStateValue } from "../Datalayer/StateProvider";
-import reducer, { initialState } from "../Datalayer/Reducer";
+// import reducer, { initialState } from "../Datalayer/Reducer";
 
 // eslint-disable-next-line react/prop-types
-const Product = ({id, title, image, price, rating, Address, hotel_name }) => {
+const Product = ({id, title, image, price, rating }) => {
 
   // const [{basket}, dispatch] = useStateValue();
   // console.log('This is the beasket>>>', basket)
@@ -22,9 +23,7 @@ const Product = ({id, title, image, price, rating, Address, hotel_name }) => {
         title: title,
         image: image,
         price: price,
-        rating: rating,
-        Address:Address,
-        hotel_name: hotel_name
+        rating: rating
 
       }
     })
@@ -33,20 +32,18 @@ const Product = ({id, title, image, price, rating, Address, hotel_name }) => {
   return (
     <div className="product">
       <div className="product_info">
-        <p className="hotel_name">{hotel_name}</p>
-        <p><span className="surplus_food">Surplus Food:- </span>{title}</p>
+        <p>{title}</p>
         <p className="product_price">
-          <smal>₹</smal>
+          <smal>$</smal>
           <strong>{price}</strong>
         </p>
         <div className="product_rating">
-          {/* {Array(rating)
+          {Array(rating)
             .fill()
-            .map((_, i) => (
+            .map(() => (
               // eslint-disable-next-line react/jsx-key
               <p>⭐️</p>
-            ))} */}
-            <p><span className="address">Address: </span>{Address}</p>
+            ))}
         </div>
       </div>
       <img src={image} alt="" />
